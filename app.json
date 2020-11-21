@@ -13,14 +13,17 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "android": {
+      "package": "com.naijaDaily.app",
+      "versionCode": 1
+    },
+    "description": "Naija Daily Blog. 247 News At Your Finger Tips."
   }
 }
